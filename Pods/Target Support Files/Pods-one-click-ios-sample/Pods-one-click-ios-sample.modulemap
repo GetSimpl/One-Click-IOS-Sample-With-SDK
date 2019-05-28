@@ -1,0 +1,6 @@
+framework module Pods_one_click_ios_sample {
+  umbrella header "Pods-one-click-ios-sample-umbrella.h"
+
+  export *
+  module * { export * }
+}

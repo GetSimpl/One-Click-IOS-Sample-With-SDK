@@ -1,0 +1,16 @@
+PODS:
+  - SimplOneClick (1.0.9)
+
+DEPENDENCIES:
+  - SimplOneClick
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SimplOneClick
+
+SPEC CHECKSUMS:
+  SimplOneClick: da0ddbe2634805dd53c2a45fde328db2af7de732
+
+PODFILE CHECKSUM: 646c795f58c797613ad406bc673fd7623e28f39b
+
+COCOAPODS: 1.6.2

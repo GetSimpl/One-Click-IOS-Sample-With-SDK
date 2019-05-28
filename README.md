@@ -1,3 +1,3 @@
-# ZeroClick-IOS-Sample-With-SDK
+# One-Click-IOS-Sample-With-SDK
 
 Demo IOS application to showcase ios sdk integration

@@ -28,20 +28,10 @@ class PaymentViewController: UIViewController {
         self.setTotal(total ?? 0)
         
         // initialize simpl
-        initSimpl()
+        initOneClickSDK()
     }
     
-    private func initSimpl() {
-        if (initZeroClickSDK()){
-//            if self.userModel?.hasZeroClickToken ?? false {
-//                self.callEligility()
-//            } else {
-//                self.callAproval()
-//            }
-        }
-    }
-    
-    private func initZeroClickSDK() -> Bool {
+    private func initOneClickSDK() -> Bool {
         GSManager.initialize(withMerchantID: "e4a905492fc1ec16d8f2d25bfd9885c7")
         GSManager.enableSandBoxEnvironment(true)
         return true;
